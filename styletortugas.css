@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{
+	background-color: black;
+	color: white
+}
+p{
+			background-color: pink;
+			color:black;
+			font-size: 16px;
+}
+a:hover{
+	background-color: black;
+	color: white;
+}
+a:active{
+	
+	color:blue;
+}
+a:checked{
+	color:purple;
+}
+.contenedor_2{
+	
+	width: 400px;
+	height: 400px;
+	border: 1px solid #000;
+	padding-top: 20px;
+	/*primer vaor padding top, segundo valor afecta al derecha e izquierda y ultimo valor afecta paddin buttom*/
+	padding: 10px 20px 5px;
+	/*padding afecta arriba abajo izquierda y derecha*/
+	/*margin-top: 20px;*/	
+	/*primer vaor afecta arriba, segundo valor afecta al derecha e izquierda y ultimo valor afecta margin buttom*/
+	margin: 10px 20px 7px;
+	display: inline-block;
+}
+
+a{
+	
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	background-color: pink;
+	color:black;
+	width: 100px;
+	height: 30px;
+	text-decoration: none;
+	/* primer valor de border radius izquierdaArriba, derechaArriba, derechaabajo, izquierdaarriba*/
+	
+	border-radius: 5px;
+		
+}
+.especs{
+	background-color: white;
+}
+.te{
+	width: 800px;
+	height: 300px;
+	border: 5px solid #000;
+}
+.torcai{
+	
+	width: 780px;
+	height: 480px;
+	border: 5px solid #000;
+	position: relative;
+	
+}
+.torcaiman{
+	position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  margin: auto;
+}
+
